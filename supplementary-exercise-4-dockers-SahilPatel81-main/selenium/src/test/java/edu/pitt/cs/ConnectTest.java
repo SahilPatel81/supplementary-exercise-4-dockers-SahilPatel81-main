@@ -44,6 +44,7 @@ public class ConnectTest {
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
+    
   }
   @After
   public void tearDown() {
